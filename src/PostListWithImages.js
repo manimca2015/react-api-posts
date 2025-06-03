@@ -41,12 +41,12 @@ function PostListWithImages() {
               <div className="card-body d-flex flex-column">
                 <h5 className="card-title">{post.title}</h5>
                 <p className="card-text">{post.body.substring(0, 80)}...</p>
-                <button
+              /*  <button
                   onClick={() => handleReadMore(post)}
                   className="btn btn-primary mt-auto"
                 >
                   Read More
-                </button>
+                </button>  */
               </div>
             </div>
           </div>
