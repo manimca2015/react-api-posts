@@ -9,7 +9,7 @@ function PostListWithImages() {
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/posts")
       .then((response) => response.json())
-      .then((data) => setPosts(data))
+      .then((data) => setPosts(data.slice(0, 70)))
       .catch((error) => console.error("Error fetching posts:", error));
   }, []);
 
