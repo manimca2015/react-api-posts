@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import logo from './logo.png';
 
 
 function Header() {
@@ -9,7 +10,7 @@ function Header() {
       <nav className="navbar navbar-expand-lg navbar-dark container">
         <a className="navbar-brand" href="/">
           <img
-            src="https://via.placeholder.com/40"
+            src={logo}
             alt="Logo"
             width="40"
             height="40"
